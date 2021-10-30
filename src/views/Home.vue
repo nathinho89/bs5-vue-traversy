@@ -267,6 +267,38 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact Map -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4 align-items-md-center">
+          <div class="col-md">
+            <h2 class="mb-4">Contact Info</h2>
+            <ul class="list-group">
+              <li class="list-group-item"><strong>E:</strong> email@emailaddress.com</li>
+              <li class="list-group-item"><strong>T:</strong> email@emailaddress.com</li>
+              <li class="list-group-item">
+                <strong>Company name</strong>
+                <br>Line One,<br>Line Two<br>Postcode
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <img src="http://placehold.it/500x300&text=Map" alt="Map" class="w-100">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
 </template>
