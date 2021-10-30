@@ -62,8 +62,8 @@
     <section class="p-5">
       <div class="container">
         <h2 class="visually-hidden">Learning Options</h2>
-        <div class="row justify-content-md-between text-center">
-          <div class="col-4">
+        <div class="row justify-content-md-between text-center g-4">
+          <div class="col-md">
             <div class="card bg-dark text-light">
               <div class="card-body">
                 <div class="h1">
@@ -75,7 +75,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-md">
             <div class="card bg-secondary text-light">
               <div class="card-body">
                 <div class="h1">
@@ -87,7 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-md">
             <div class="card bg-dark text-light">
               <div class="card-body">
                 <div class="h1">
