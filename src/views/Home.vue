@@ -58,6 +58,51 @@
       </div>
     </section>
 
+    <!-- Learning Options -->
+    <section class="p-5">
+      <div class="container">
+        <h2 class="visually-hidden">Learning Options</h2>
+        <div class="row justify-content-md-between text-center">
+          <div class="col-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body">
+                <div class="h1">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title my-3">Virtual</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, quia? Culpa cumque eos sit quasi.</p>
+                <a href="#" class="btn btn-primary mt-3">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-secondary text-light">
+              <div class="card-body">
+                <div class="h1">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title my-3">Hybrid</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, quia? Culpa cumque eos sit quasi.</p>
+                <a href="#" class="btn btn-dark mt-3">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body">
+                <div class="h1">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title my-3">In Person</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, quia? Culpa cumque eos sit quasi.</p>
+                <a href="#" class="btn btn-primary mt-3">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
 </template>
