@@ -103,6 +103,45 @@
       </div>
     </section>
 
+    <!-- Content Slides -->
+    <section class="p-5 bg-light" id="learn">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="http://placehold.it/500x500" alt="Placeholder" class="img-fluid d-none d-md-block">
+          </div>
+          <div class="col-md p-5-md">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium qui consequuntur fuga obcaecati beatae quo.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus adipisci rem beatae, eum quo ut a recusandae suscipit, mollitia et reprehenderit corrupti dolor quidem debitis numquam laboriosam laborum odit quasi.</p>
+
+            <a href="#" class="btn btn-outline-primary mt-3">
+              Read more <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="p-5 bg-dark text-light" id="learn">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md order-1 d-none d-md-block">
+            <img src="http://placehold.it/500x500" alt="Placeholder" class="img-fluid">
+          </div>
+          <div class="col-md p-5-md order-0">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium qui consequuntur fuga obcaecati beatae quo.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus adipisci rem beatae, eum quo ut a recusandae suscipit, mollitia et reprehenderit corrupti dolor quidem debitis numquam laboriosam laborum odit quasi.</p>
+
+            <a href="#" class="btn border border-white text-white mt-3">
+              Read more <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
 </template>
