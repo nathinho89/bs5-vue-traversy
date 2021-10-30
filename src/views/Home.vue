@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3 fixed-top">
       <div class="container">
           <a href="" class="navbar-brand">
             Bootstrap5 Bootcamp
