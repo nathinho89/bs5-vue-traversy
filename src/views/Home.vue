@@ -40,7 +40,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Newsletter -->
     <section class="bg-primary text-light p-5">
       <div class="container">
@@ -207,6 +207,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
@@ -226,6 +227,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
@@ -245,6 +247,7 @@
               </div>
             </div>
           </div>
+          
           <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
