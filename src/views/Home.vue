@@ -181,6 +181,92 @@
         </div>
       </div>
     </section>
+
+    <section class="p-5 bg-primary" id="instructors">
+      <div class="container">
+          <h2 class="text-center text-white">Our Instructors</h2>
+          <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consequuntur.</p>
+          
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="http://randomuser.me/api/portraits/men/11.jpg" alt="Random" class="rounded-circle">
+                <h3 class="h4 card-title my-3">User Name</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet dignissimos molestiae consectetur quod consequuntur.</p>
+               
+                <a href="">
+                    <i class="bi-twitter text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-linkedin text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-instagram text-dark mx-2"></i>
+                </a>                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="http://randomuser.me/api/portraits/women/11.jpg" alt="Random" class="rounded-circle">
+                <h3 class="h4 card-title my-3">User Name</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet dignissimos molestiae consectetur quod consequuntur.</p>
+               
+                <a href="">
+                    <i class="bi-twitter text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-linkedin text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-instagram text-dark mx-2"></i>
+                </a>                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="http://randomuser.me/api/portraits/men/12.jpg" alt="Random" class="rounded-circle">
+                <h3 class="h4 card-title my-3">User Name</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet dignissimos molestiae consectetur quod consequuntur.</p>
+               
+                <a href="">
+                    <i class="bi-twitter text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-linkedin text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-instagram text-dark mx-2"></i>
+                </a>                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="http://randomuser.me/api/portraits/women/12.jpg" alt="Random" class="rounded-circle">
+                <h3 class="h4 card-title my-3">User Name</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet dignissimos molestiae consectetur quod consequuntur.</p>
+               
+                <a href="">
+                    <i class="bi-twitter text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-linkedin text-dark mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="bi-instagram text-dark mx-2"></i>
+                </a>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
 </template>
