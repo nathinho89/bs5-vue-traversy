@@ -41,6 +41,22 @@
       </div>
     </section>
     
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <h2 class="mb-4 mb-lg-0">Sign up to our newsletter</h2>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Your email" aria-label="Your email" aria-describedby="button-addon2">
+              <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
