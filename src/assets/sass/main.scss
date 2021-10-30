@@ -3,7 +3,8 @@
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/utilities";
 
-@import "./custom/variables";
+@import "./custom/variables"; // Overwriting and extending BS vars
+@import "./custom/base"; // Base HTML elements such as body 
 
 // Layout & components
 @import "../../../node_modules/bootstrap/scss/root";
