@@ -1,18 +1,59 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+      <div class="container">
+          <a href="" class="navbar-brand">
+            Bootstrap5 Bootcamp
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <i class="navbar-toggler-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#learn" class="nav-link">What You'll Learn</a>
+              </li>
+              <li class="nav-item">
+                <a href="#questions" class="nav-link">Questions</a>
+              </li>
+              <li class="nav-item">
+                <a href="#instructors" class="nav-link">Instructors</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-dark text-light p-5 text-center text-md-start">
+      <div class="container">
+        <div class="d-md-flex justify-content-md-between align-items-md-center">
+          <div>
+            <h1>Become a <span class="text-warning">Dev</span></h1>
+            <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error corrupti dolorem nam, tempore officiis quisquam voluptatum magni possimus minima quasi odit odio voluptas sequi quae? Porro cupiditate corporis animi.</p>
+            <button class="btn btn-primary btn-lg">Start Your Enrollment</button>
+          </div>
+          <img src="http://placehold.it/500x500" alt="Become a dev image" class="img-fluid w-50 d-none d-md-block ms-5">
+        </div>
+      </div>
+    </section>
+    
+
+   <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+//import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 @Options({
-  components: {
-    HelloWorld,
-  },
+//   components: {
+//     HelloWorld
+//   },
 })
 export default class Home extends Vue {}
 </script>
