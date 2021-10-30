@@ -142,6 +142,45 @@
         </div>
       </div>
     </section>
+
+    <section class="p-5" id="questions" aria-label="Frequently Asked Questions">
+      <div class="container">
+        <h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="accordion-questions">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="question-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-collapseOne" aria-expanded="false" aria-controls="question-collapseOne">
+                Question Title #1
+              </button>
+            </h3>
+            <div id="question-collapseOne" class="accordion-collapse collapse" aria-labelledby="question-headingOne" data-bs-parent="#accordion-questions">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="question-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-collapseTwo" aria-expanded="false" aria-controls="question-collapseTwo">
+                Question Title #2
+              </button>
+            </h3>
+            <div id="question-collapseTwo" class="accordion-collapse collapse" aria-labelledby="question-headingTwo" data-bs-parent="#accordion-questions">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="question-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-collapseThree" aria-expanded="false" aria-controls="question-collapseThree">
+                Question Title #3
+              </button>
+            </h3>
+            <div id="question-collapseThree" class="accordion-collapse collapse" aria-labelledby="question-headingThree" data-bs-parent="#accordion-questions">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ad ab doloremque asperiores rerum iusto ipsa consectetur dignissimos perferendis et distinctio autem neque, cupiditate adipisci dolorum? Iure perspiciatis modi amet.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
   </div>
 </template>
